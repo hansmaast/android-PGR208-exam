@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/destinationsFragment">
+    <fragment
+        android:id="@+id/destinationsFragment"
+        android:name="com.example.android.exam_project.fragments.DestinationsFragment"
+        android:label="DestinationsFragment" >
+        <action
+            android:id="@+id/action_destinationsFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.android.exam_project.fragments.DetailsFragment"
+        android:label="DetailsFragment" >
+        <argument
+            android:name="destinationID"
+            app:argType="string" />
+    </fragment>
+</navigation>

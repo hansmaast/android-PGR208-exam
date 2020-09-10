@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Anchor Points</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_of_destination">Image of destination</string>
+    <string name="map_btn_text">Open in maps</string>
+    <string name="example_comment">A good anchorage, close to the airport for crew change. Good holding over 3-5m sand. Plenty of swinging room. You can walk from Club Nautique about 3km to a bus station that takes you to the airport. The dinghy dock at the northeast corner of the bay and belongs to the club. If you don’t mind to be in the vicinity of the flare of the local refinery - this is a good spot. Very well sheltered from all swells, very quite but plenty of mosquitos (we don’t had a single one in January)! Airplanes fly until 2200h, maybe two every hour - this does not compare to a busy airport.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
